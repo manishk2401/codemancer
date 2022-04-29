@@ -1,0 +1,39 @@
+.textArea {
+  border: none;
+  font-size: calc(7px + 2vmin);
+  min-width: 400px;
+  max-width: 400px;
+}
+.textArea:focus-visible {
+  outline: none;
+}
+
+.gifBtn {
+  padding: 0px 10px !important;
+  border-radius: 10px !important;
+  margin-bottom: 3px !important;
+}
+
+.cards {
+  width: 450px;
+  display: flex;
+}
+
+.searchGroup {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.searchGroup input {
+  width: 100%;
+  font-size: large;
+  border: none;
+}
+
+.searchGroup input:focus-visible {
+  outline: none;
+}
+
+.selectedGif {
+  display: flex;
+  align-items: flex-start;
+}
